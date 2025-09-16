@@ -21,5 +21,3 @@ Analyze global COVID-19 data trends and build a reporting solution for visualiza
 - Built cloud-based automated ETL pipelines.
 - Developed interactive dashboards for data analysis and decision-making.
 
-## Sample Dashboard
-
