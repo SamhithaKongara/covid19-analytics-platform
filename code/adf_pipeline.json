@@ -1,0 +1,17 @@
+{
+    "name": "IngestCovidData",
+    "properties": {
+        "activities": [
+            {
+                "name": "CopyCovidCSVtoSQL",
+                "type": "Copy",
+                "inputs": [{ "referenceName": "CovidCSV", "type": "DatasetReference" }],
+                "outputs": [{ "referenceName": "SQLCovidTable", "type": "DatasetReference" }],
+                "typeProperties": {
+                    "source": { "type": "DelimitedTextSource" },
+                    "sink": { "type": "SqlSink" }
+                }
+            }
+        ]
+    }
+}
