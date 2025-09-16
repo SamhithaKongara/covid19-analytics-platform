@@ -29,3 +29,9 @@ It demonstrates **automated ingestion, transformation, and dashboarding** using 
 ## 📊 Dashboard Preview
 ![COVID-19 Dashboard](dashboards/covid_dashboard.png)
 
+## ✅ Skills Demonstrated
+- **Automated ETL workflows** in Azure  
+- **Fact/Dimension modeling** for analytics  
+- **Daily data refresh** with ADF pipelines  
+- **Interactive BI dashboards** with KPIs  
+
